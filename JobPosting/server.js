@@ -12,7 +12,7 @@ app.use('/api', jobRoutes);
 
 // Connect to MongoDB
 mongoose
-    .connect('mongodb+srv://user:psPtKumrnzhEJ0Kg@ecommerce.d381t.mongodb.net/jobposting')
+    .connect('mongodb+srv://usersss:psrrrrPtKumrnzhEJ0Kg@ecommerce.d381t.mongodb.net/jobposting')
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log('Error connecting to MongoDB:', err));
 
